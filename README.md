@@ -12,7 +12,7 @@ I am a **Geo-spatial Planner** and **GIS & Remote Sensing Analyst** applying Ear
 
 | Project | Technical contribution |
 |---|---|
-| **Ibadan Land-Use and Land-Cover Change, 2013–2023** | Applied Random Forest classification and change detection to quantify metropolitan land transformation; the 2023 classification achieved **97.0% overall accuracy** and **0.96 Kappa**. |
+| ****[Ibadan Land-Use and Land-Cover Change, 2013–2023](https://github.com/Abdullahabdazeez/ibadan-lulc-change)**** | Applied Random Forest classification and change detection to quantify metropolitan land transformation; the 2023 classification achieved **97.0% overall accuracy** and **0.96 Kappa**. |
 | **Abuja Urban Growth Prediction** | Modelled observed and future urban expansion using a **CA–Markov** framework; validation achieved **97.8% overall accuracy** and **0.97 Kappa**. |
 | **Lagos Public Transport Accessibility and Spatial Equity** | Integrated population and transport-network data to estimate travel-time accessibility; approximately **46.56%** of the analysed population was classified as underserved. |
 | **Ayetoro Coastal Erosion and Settlement Vulnerability** | Combined shoreline-change analysis and settlement buffers; erosion rates ranged from **−6.84 to −9.68 m/year**, with about **167.75 ha** of land loss. |
