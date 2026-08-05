@@ -19,8 +19,6 @@ I am a **Geo-spatial Planner** and **GIS & Remote Sensing Analyst** applying Ear
 | **Machine-Learning Land Suitability — Enugu** | Integrated terrain, land cover, accessibility, environmental constraints, and machine-learning methods to identify suitable areas for sustainable urban development. |
 | **Conflict, Displacement and Settlement Change — Borno** | Integrated conflict events, displacement records, night-time lights, and settlement data to assess spatial patterns of decline, abandonment, and recovery. |
 
-*Repositories will be linked here as each project is prepared and published.*
-
 ### Technical expertise
 
 | Area | Tools and methods |
