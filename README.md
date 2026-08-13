@@ -6,7 +6,7 @@
 
 I am a geo-spatial planner and GIS and remote-sensing analyst with a background in Urban and Regional Planning. I use satellite imagery, spatial analysis and modelling to study urban growth, environmental change, accessibility and climate-related risk.
 
-My aim is simple: to turn spatial data into clear evidence that can support better planning decisions.
+My interest is to turn spatial data into clear evidence that can support better planning decisions.
 
 ## Selected projects
 
