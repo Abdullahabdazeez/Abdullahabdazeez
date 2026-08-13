@@ -10,11 +10,11 @@ My aim is simple: to turn spatial data into clear evidence that can support bett
 
 ## Selected projects
 
-| Project | What I did | Main result |
+| Project | What I did | Current status |
 |---|---|---|
-| [Ibadan land-cover change, 2013–2023](https://github.com/Abdullahabdazeez/ibadan-lulc-change) | Classified Landsat imagery with separate Random Forest models and measured changes between four land-cover classes. | Built-up land increased by **679.64 km²**. Validation reached **92.34%** overall accuracy for 2013 and **97.04%** for 2023. |
-| [Abuja urban-growth scenario, 2025–2035](https://github.com/Abdullahabdazeez/abuja-urban-growth-ca-markov) | Combined historical land-cover transitions with a suitability-based, quantity-constrained CA–Markov allocation. | The scenario allocated **183.45 km²** of additional built-up land. Historical validation was modest (**49.27% overall accuracy; Kappa 0.366**), so the output is presented as a planning scenario rather than a forecast. |
-| [Lagos formal public-transport accessibility](https://github.com/Abdullahabdazeez/lagos-public-transport-accessibility) | Combined a pedestrian network, mapped formal/core transit access points and WorldPop data to estimate walking access. | **53.44%** of the analysed population was within 30 minutes of mapped formal/core transit; **46.56%** was beyond 30 minutes or within a structural network gap. |
+| [Lagos formal public-transport accessibility](https://github.com/Abdullahabdazeez/lagos-public-transport-accessibility) | Combined a pedestrian network, mapped formal/core transit access points and WorldPop data to estimate walking access. | Reviewed result: **53.44%** of the analysed population was within 30 minutes of mapped formal/core transit; **46.56%** was beyond 30 minutes or within a structural network gap. |
+| [Abuja urban-growth scenario, 2025–2035](https://github.com/Abdullahabdazeez/abuja-urban-growth-ca-markov) | Combined historical land-cover transitions with a suitability-based, quantity-constrained CA–Markov allocation. | Published with caution: historical validation was modest (**49.27% overall accuracy; Kappa 0.366**), so the output is presented as a planning scenario rather than a forecast. |
+| [Ibadan land-cover change, 2013–2023](https://github.com/Abdullahabdazeez/ibadan-lulc-change) | Reconstructed the classification and validation workflow after a forensic audit found that the original headline results were not adequately supported. | **Under reconstruction.** Earlier accuracy and change figures have been withdrawn pending completion of the final deployment review. |
 
 ## Other work under review
 
