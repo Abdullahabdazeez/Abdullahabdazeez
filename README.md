@@ -24,24 +24,32 @@ My work sits between spatial analysis and practical planning. I am interested in
 
 ## Portfolio at a glance
 
-My portfolio currently covers ten applied studies across Nigeria and Estonia. Three repositories are public, one is being reconstructed, and seven validated project repositories remain private while their publication packages are prepared.
+My portfolio currently covers ten applied studies across Nigeria and Estonia. Four repositories are public, while six validated project repositories remain private while their publication packages are prepared.
 
 | Theme | Project | Evidence and planning value | Access |
 |---|---|---|---|
 | Transport accessibility | [Lagos formal public-transport accessibility](https://github.com/Abdullahabdazeez/lagos-public-transport-accessibility) | Modelled walking access to 219 mapped formal/core transit points. **53.44%** of the analysed population was within 30 minutes; **46.56%** was beyond 30 minutes or within a structural network gap. | Public |
 | Urban growth | [Abuja urban-growth scenario, 2025–2035](https://github.com/Abdullahabdazeez/abuja-urban-growth-ca-markov) | Allocated **183.45 km²** of additional built-up land under a CA–Markov scenario. Modest historical validation is reported openly, so the output is presented as a scenario rather than a forecast. | Public |
-| Land-cover change | [Ibadan land-cover change, 2013–2023](https://github.com/Abdullahabdazeez/ibadan-lulc-change) | Rebuilding the classification after a forensic audit found that the original headline results were not adequately supported. The current leakage-free model achieved **78.57% overall accuracy** and **0.639 Kappa**, but final deployment review is still required. | Public · reconstruction |
+| Land-cover change | [Ibadan land-cover change, 2013–2023](https://github.com/Abdullahabdazeez/ibadan-lulc-change) | Final reconstruction mapped built-up growth from **99.866 km² to 330.177 km²**. **246.104 km²** converted from vegetation to built-up. The locked holdout achieved **87.50% overall accuracy** and **0.794 Kappa**. | Public · validated |
 | Healthcare accessibility | Kano primary-healthcare accessibility | Combined travel time and 15-minute 2SFCA modelling across **1,584 PHCs, 484 wards and 16,789 demand cells**. Adding the top 20 candidate PHCs improved the statewide score by only **1.26%**, showing that location expansion alone is not a complete solution. | Private · validated |
 | Drought and land change | Northern Nigeria vegetation browning | Identified statistically significant vegetation decline without a corresponding rainfall decline in the LGP 180–239 day zone. Independent land-change evidence supports an interpretation beyond climatic drought alone. | Private · validated |
 | Land suitability | Enugu near-urban expansion suitability | Built a leakage-audited Extra Trees model with independent spatial testing. The model achieved **0.727 ROC-AUC** and improved PR-AUC over a distance-only benchmark, while retaining clear uncertainty limits. | Private · validated |
 | Conflict and displacement | Borno settlement-change assessment | Screened **2,455 settlements** and reviewed 13 detailed cases using built-up change, night lights, conflict and population evidence. No location is presented as abandoned without sufficient multi-source support. | Private · validated |
 | Flood risk | Lokoja flood hazard and vulnerability | Developed an AHP/MCDA flood-susceptibility model validated against 2012, 2018 and 2022 flood evidence. High and Very High hazard captured more than **85%** of the historical flood evidence in each year. | Private · validated |
 | Urban green infrastructure | Tartu ecosystem-service deficit | Mapped capacity, demand and deficit across Tartu. **72.30% of built-up land** fell within High or Very High planning-priority zones for green-infrastructure attention. | Private · validated |
-| Coastal adaptation | Ayetoro 3D coastal vulnerability | Assessed **1,628 buildings** using a five-indicator vulnerability index. **72.17%** were classified as High or Very High relative vulnerability; the 3D component is clearly separated from the analytical model. | Private · validated |
+| Coastal adaptation | [Ayetoro 3D coastal vulnerability](https://github.com/Abdullahabdazeez/ayetoro-3d-coastal-vulnerability) | Assessed **1,628 buildings** using a five-indicator vulnerability index. **72.17%** were classified as High or Very High relative vulnerability; the 3D component is clearly separated from the analytical model. | Public · validated |
 
 > Private projects are described here as portfolio work, but their repository links and internal files are not exposed. They will be made public individually after final publication checks.
 
 ## Featured public work
+
+### Ibadan land-cover change, 2013–2023
+
+**Question:** How did Ibadan's land-cover pattern change over a decade, and what land cover supplied most new urban development?
+
+After a forensic audit exposed weaknesses in the original validation evidence, I withdrew the earlier headline results and rebuilt the classification. The final reconstruction uses seasonally matched Landsat predictors, blinded human review, leakage controls, a locked independent holdout and wall-to-wall spectral and temporal consistency checks. Built-up land increased by **230.311 km²**, while **99.14% of gross new built-up land** came from areas mapped as vegetation in 2013.
+
+[View validated repository](https://github.com/Abdullahabdazeez/ibadan-lulc-change)
 
 ### Lagos formal public-transport accessibility
 
@@ -58,14 +66,6 @@ The study combines a pedestrian network, WorldPop population data and mapped for
 The project combines land-cover transitions, a suitability surface and quantity-constrained cellular allocation. Because historical CA–Markov validation was modest, the 2035 result is used for strategic scenario discussion—not parcel-level prediction or development approval.
 
 [View repository](https://github.com/Abdullahabdazeez/abuja-urban-growth-ca-markov)
-
-### Ibadan land-cover reconstruction
-
-**Question:** How can metropolitan land-cover change be measured with defensible reference data and validation?
-
-A later audit found that the original accuracy and change claims could not be independently supported. I therefore withdrew those figures and began a full reconstruction with seasonally matched imagery, human-reviewed labels, leakage controls and nested validation.
-
-[View reconstruction status](https://github.com/Abdullahabdazeez/ibadan-lulc-change)
 
 ## What I bring to a project
 
