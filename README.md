@@ -16,64 +16,93 @@
 
 ## About me
 
-I am an Urban and Regional Planning graduate from the Federal University of Technology, Akure. I use GIS, Earth observation and spatial modelling to study how cities grow, where people struggle to reach essential services, and how communities are affected by flooding, drought, coastal change and environmental pressure.
+I am an Urban and Regional Planning graduate from the Federal University of Technology, Akure. I use GIS, Earth observation and spatial modelling to examine urban growth, service accessibility, environmental change and climate-related planning problems.
 
-My work sits between spatial analysis and practical planning. I am interested in producing evidence that planners, researchers and communities can understand—not maps without interpretation.
+My work sits between spatial analysis and practical planning: I am interested in evidence that can support decisions, not maps without interpretation.
 
 **Research direction:** geospatial decision support for sustainable, resilient and equitable urban and environmental planning.
 
-## Portfolio at a glance
+## Public portfolio
 
-My portfolio currently covers ten applied studies across Nigeria and Estonia. Four repositories are public, while six validated project repositories remain private while their publication packages are prepared.
+Five applied project repositories are currently public and accessible directly from this profile. Additional projects remain private while their final publication packages are being prepared.
 
-| Theme | Project | Evidence and planning value | Access |
+| Theme | Public project | What it shows | Status |
 |---|---|---|---|
-| Transport accessibility | [Lagos formal public-transport accessibility](https://github.com/Abdullahabdazeez/lagos-public-transport-accessibility) | Modelled walking access to 219 mapped formal/core transit points. **53.44%** of the analysed population was within 30 minutes; **46.56%** was beyond 30 minutes or within a structural network gap. | Public |
-| Urban growth | [Abuja urban-growth scenario, 2025–2035](https://github.com/Abdullahabdazeez/abuja-urban-growth-ca-markov) | Allocated **183.45 km²** of additional built-up land under a CA–Markov scenario. Modest historical validation is reported openly, so the output is presented as a scenario rather than a forecast. | Public |
-| Land-cover change | [Ibadan land-cover change, 2013–2023](https://github.com/Abdullahabdazeez/ibadan-lulc-change) | Final reconstruction mapped built-up growth from **99.866 km² to 330.177 km²**. **246.104 km²** converted from vegetation to built-up. The locked holdout achieved **87.50% overall accuracy** and **0.794 Kappa**. | Public · validated |
-| Healthcare accessibility | Kano primary-healthcare accessibility | Combined travel time and 15-minute 2SFCA modelling across **1,584 PHCs, 484 wards and 16,789 demand cells**. Adding the top 20 candidate PHCs improved the statewide score by only **1.26%**, showing that location expansion alone is not a complete solution. | Private · validated |
-| Drought and land change | Northern Nigeria vegetation browning | Identified statistically significant vegetation decline without a corresponding rainfall decline in the LGP 180–239 day zone. Independent land-change evidence supports an interpretation beyond climatic drought alone. | Private · validated |
-| Land suitability | Enugu near-urban expansion suitability | Built a leakage-audited Extra Trees model with independent spatial testing. The model achieved **0.727 ROC-AUC** and improved PR-AUC over a distance-only benchmark, while retaining clear uncertainty limits. | Private · validated |
-| Conflict and displacement | Borno settlement-change assessment | Screened **2,455 settlements** and reviewed 13 detailed cases using built-up change, night lights, conflict and population evidence. No location is presented as abandoned without sufficient multi-source support. | Private · validated |
-| Flood risk | Lokoja flood hazard and vulnerability | Developed an AHP/MCDA flood-susceptibility model validated against 2012, 2018 and 2022 flood evidence. High and Very High hazard captured more than **85%** of the historical flood evidence in each year. | Private · validated |
-| Urban green infrastructure | Tartu ecosystem-service deficit | Mapped capacity, demand and deficit across Tartu. **72.30% of built-up land** fell within High or Very High planning-priority zones for green-infrastructure attention. | Private · validated |
-| Coastal adaptation | [Ayetoro 3D coastal vulnerability](https://github.com/Abdullahabdazeez/ayetoro-3d-coastal-vulnerability) | Assessed **1,628 buildings** using a five-indicator vulnerability index. **72.17%** were classified as High or Very High relative vulnerability; the 3D component is clearly separated from the analytical model. | Public · validated |
+| Land-cover change | [Ibadan land-cover change, 2013–2023](https://github.com/Abdullahabdazeez/ibadan-lulc-change) | Built-up land increased from **99.866 km² to 330.177 km²**; **246.104 km²** converted from vegetation to built-up. Final locked-holdout OA: **87.50%**. | **Validated · final** |
+| Healthcare accessibility | [Kano primary-healthcare accessibility](https://github.com/Abdullahabdazeez/kano-primary-healthcare-accessibility) | Network travel time and 15-minute 2SFCA analysis across **1,584 PHCs, 484 wards and 16,789 demand cells**. The +20 PHC scenario improved statewide modelled accessibility by **1.26%**. | **Validated · final** |
+| Transport accessibility | [Lagos formal public-transport accessibility](https://github.com/Abdullahabdazeez/lagos-public-transport-accessibility) | **53.44%** of the analysed population was within 30 minutes of mapped formal/core transit; **46.56%** was outside that threshold or in a structural network gap. | **Validated · final** |
+| Coastal adaptation | [Ayetoro 3D coastal vulnerability](https://github.com/Abdullahabdazeez/ayetoro-3d-coastal-vulnerability) | Assessed **1,628 buildings**; **72.17%** were High or Very High relative vulnerability. The 3D component is explicitly separated from the vulnerability model. | **Validated · final** |
+| Urban growth modelling | [Abuja CA–Markov urban-growth model](https://github.com/Abdullahabdazeez/abuja-urban-growth-ca-markov) | Original CA–Markov scenario retained for provenance while the historical LULC inputs, transition logic and validation framework are being rebuilt. | **Public · reconstruction in progress** |
 
-> Private projects are described here as portfolio work, but their repository links and internal files are not exposed. They will be made public individually after final publication checks.
+> Public repositories contain the project-facing documentation and selected outputs. Large reconstruction archives and intermediate technical files are kept separately where appropriate.
 
-## Featured public work
+## Featured work
 
-### Ibadan land-cover change, 2013–2023
+### 1. Ibadan land-cover change, 2013–2023
 
 **Question:** How did Ibadan's land-cover pattern change over a decade, and what land cover supplied most new urban development?
 
-After a forensic audit exposed weaknesses in the original validation evidence, I withdrew the earlier headline results and rebuilt the classification. The final reconstruction uses seasonally matched Landsat predictors, blinded human review, leakage controls, a locked independent holdout and wall-to-wall spectral and temporal consistency checks. Built-up land increased by **230.311 km²**, while **99.14% of gross new built-up land** came from areas mapped as vegetation in 2013.
+A forensic audit exposed weaknesses in the original validation evidence, so the earlier headline results were withdrawn and the classification was rebuilt. The final reconstruction uses seasonally matched Landsat predictors, blinded human review, leakage controls, a locked independent holdout and wall-to-wall consistency checks.
 
-[View validated repository](https://github.com/Abdullahabdazeez/ibadan-lulc-change)
+**Final result:** built-up land increased by **230.311 km²**, and **99.14% of gross new built-up land** came from areas mapped as vegetation in 2013.
 
-### Lagos formal public-transport accessibility
+[View validated repository →](https://github.com/Abdullahabdazeez/ibadan-lulc-change)
 
-**Question:** How easily can residents reach Lagos's mapped formal/core transit network on foot?
+### 2. Kano primary-healthcare accessibility
 
-The study combines a pedestrian network, WorldPop population data and mapped formal/core transit access points. It also separates time-based access gaps from structural network gaps and states clearly that informal transport is not comprehensively represented.
+**Question:** Where are the main spatial gaps in primary healthcare access across Kano State, and how much can carefully selected new PHC locations improve access?
 
-[View repository](https://github.com/Abdullahabdazeez/lagos-public-transport-accessibility)
+The project combines network travel time, population demand and a 15-minute two-step floating catchment area analysis. It also tests alternative PHC expansion scenarios and distance-decay assumptions.
 
-### Abuja urban-growth scenario
+**Planning result:** targeted facilities improve access in selected communities, but even the +20 PHC scenario changes the statewide population-weighted accessibility score by only **1.26%**.
 
-**Question:** Where might urban expansion concentrate if the 2015–2025 transition pattern continues?
+[View validated repository →](https://github.com/Abdullahabdazeez/kano-primary-healthcare-accessibility)
 
-The project combines land-cover transitions, a suitability surface and quantity-constrained cellular allocation. Because historical CA–Markov validation was modest, the 2035 result is used for strategic scenario discussion—not parcel-level prediction or development approval.
+### 3. Lagos formal public-transport accessibility
 
-[View repository](https://github.com/Abdullahabdazeez/abuja-urban-growth-ca-markov)
+**Question:** How easily can residents reach Lagos's mapped formal/core public-transport network on foot?
+
+The study combines a pedestrian network, WorldPop population data and 219 mapped formal/core transit access points. It separates time-based accessibility gaps from structural network gaps and states clearly that informal transport is not comprehensively represented.
+
+[View validated repository →](https://github.com/Abdullahabdazeez/lagos-public-transport-accessibility)
+
+### 4. Ayetoro coastal vulnerability
+
+**Question:** Where are buildings in Ayetoro most vulnerable to coastal hazards, and how can geospatial analysis support adaptation planning?
+
+The final model combines shoreline proximity, low elevation, settlement density, road density and facility exposure. Historical evidence is used for validation rather than model construction, and estimated building heights are used only for 3D visualisation.
+
+[View validated repository →](https://github.com/Abdullahabdazeez/ayetoro-3d-coastal-vulnerability)
+
+## Projects currently being strengthened
+
+### Abuja urban-growth CA–Markov
+
+The original 2035 scenario remains public for transparency, but the project is now undergoing a controlled reconstruction. The current priority is to repair the historical 2005/2015/2025 LULC inputs, resolve implausible transition behaviour, strengthen suitability discrimination and replace Kappa-led land-change validation with more interpretable change diagnostics such as Figure of Merit and quantity/allocation disagreement.
+
+Until that reconstruction is complete, the existing 2035 scenario should be treated as **provisional**, not as a final forecast.
+
+[View reconstruction repository →](https://github.com/Abdullahabdazeez/abuja-urban-growth-ca-markov)
+
+## Additional portfolio work
+
+The wider portfolio also includes ongoing or publication-preparation work in:
+
+- Northern Nigeria drought and vegetation stress;
+- Enugu land-suitability modelling;
+- Borno conflict and displacement analysis;
+- Lokoja flood hazard and vulnerability; and
+- Tartu urban green-infrastructure ecosystem-service deficit.
+
+These repositories remain private until their final checks are complete.
 
 ## What I bring to a project
 
 - **Planning perspective:** I connect spatial results to land-use decisions, service access, environmental management and community needs.
 - **Scientific caution:** I distinguish association from causation, scenarios from forecasts, susceptibility from hydraulic risk, and modelled access from actual service quality.
-- **Reproducible work:** My repositories document data sources, methods, limitations, validation evidence and reusable outputs.
-- **Clear communication:** I write for both technical and non-technical readers and use maps, charts and concise explanations together.
-- **Willingness to correct:** When an audit exposes a weakness, I document it and rebuild the analysis rather than preserve an attractive but unsupported result.
+- **Reproducible work:** I document data sources, methods, validation evidence, limitations and reusable outputs.
+- **Clear communication:** I write for both technical and non-technical readers and combine maps, charts and concise interpretation.
+- **Willingness to correct:** when an audit exposes a weakness, I document it and rebuild the analysis rather than preserve an unsupported result.
 
 ## Technical toolkit
 
@@ -82,14 +111,14 @@ The project combines land-cover transitions, a suitability surface and quantity-
 | GIS and cartography | QGIS, ArcGIS/ArcMap, Google Earth Engine |
 | Python and spatial data | Python, GeoPandas, Rasterio, Pandas, NumPy, scikit-learn, OSMnx, NetworkX |
 | Remote sensing | Landsat, Sentinel-2, MODIS, Dynamic World, VIIRS, CHIRPS |
-| Spatial analysis | Land-cover classification, change detection, network analysis, 2SFCA, CA–Markov, AHP/MCDA, vulnerability and suitability modelling |
-| Data and research workflow | WorldPop, OpenStreetMap, Google Colab, Git, GitHub, SPSS, Zotero |
-| Communication | Technical reports, project boards, maps, charts and planning-focused interpretation |
+| Spatial analysis | LULC classification, change detection, network analysis, 2SFCA, CA–Markov, AHP/MCDA, vulnerability and suitability modelling |
+| Research workflow | WorldPop, OpenStreetMap, Google Colab, Git, GitHub, SPSS, Zotero |
+| Communication | Technical reports, project boards, publication maps, charts and planning-focused interpretation |
 
 ## Academic and practical background
 
 - **B.Tech, Urban and Regional Planning** — Federal University of Technology, Akure
-- **Environmental Planning Intern, Gbolabs Environmental Agency** — contributed to land-use analysis, environmental assessment, neighbourhood planning and GIS-supported site studies
+- **Environmental Planning Intern, Gbolabs Environmental Agency** — land-use analysis, environmental assessment, neighbourhood planning and GIS-supported site studies
 - **Former planning intern, Ondo State Ministry of Physical Planning and Urban Development**
 - Trained university IT students in practical GIS and spatial-data applications
 - Participated in community sensitisation for a proposed Ondo State flyover, engaging residents and corridor users on its transport and traffic purpose
@@ -107,6 +136,7 @@ I am open to:
 
 - **LinkedIn:** [Abdazeez Abdullah](https://ng.linkedin.com/in/abdazeez-abdullah-4b814719a)
 - **Email:** [abdazeezabdullah1@gmail.com](mailto:abdazeezabdullah1@gmail.com)
+- **GitHub:** [github.com/Abdullahabdazeez](https://github.com/Abdullahabdazeez)
 - **Location:** Nigeria
 
 ---
