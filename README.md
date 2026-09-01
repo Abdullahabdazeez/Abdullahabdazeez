@@ -76,7 +76,7 @@ This project combines road-network travel time, population demand and a 15-minut
 ### Ayetoro — coastal vulnerability and adaptation planning
 
 <a href="https://github.com/Abdullahabdazeez/ayetoro-3d-coastal-vulnerability">
-  <img src="https://raw.githubusercontent.com/Abdullahabdazeez/ayetoro-3d-coastal-vulnerability/main/assets/project_board/Ayetoro_Final_Project_Board.png" alt="Ayetoro coastal vulnerability project" width="100%">
+  <img src="https://raw.githubusercontent.com/Abdullahabdazeez/ayetoro-3d-coastal-vulnerability/main/assets/maps/01_Ayetoro_Final_Building_Vulnerability.png" alt="Ayetoro coastal vulnerability project" width="100%">
 </a>
 
 I assessed coastal vulnerability for a validated inventory of **1,628 buildings** in Ayetoro, Ondo State. The final model combines shoreline proximity, low elevation, building density, road density and facility exposure. **72.17%** of assessed buildings fall within the High or Very High relative vulnerability classes. The 3D component is kept separate from the vulnerability model and is used only for communication and planning visualisation.
