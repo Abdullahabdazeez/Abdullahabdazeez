@@ -50,6 +50,4 @@ My practical experience includes land-use change, flood and coastal risk, transp
 
 I am interested in graduate study, research collaboration and early-career opportunities involving **GIS, remote sensing, climate adaptation, coastal management, urban resilience, accessibility and spatial decision support**.
 
-<p align="center">
-  <strong>Explore the case studies above for methods, maps, validation, code and planning interpretation.</strong>
 </p>
