@@ -15,7 +15,7 @@
 
 ## Profile
 
-I am an Urban and Regional Planner interested in how geospatial analysis can support better decisions about cities, infrastructure, environmental change and access to services. My work spans urban growth modelling, land-use change, flood risk, transport and healthcare accessibility, drought monitoring, land suitability, conflict and displacement, coastal vulnerability and urban green infrastructure. Across these projects, I combine GIS, remote sensing, spatial modelling, network analysis and machine learning with one consistent goal: turning spatial evidence into clear, useful planning insight.
+I am an Urban and Regional Planner developing a research and professional focus at the intersection of geospatial science, environmental change and sustainable planning. I use GIS, Earth observation, spatial modelling and data-driven methods to understand how cities and environments are changing, where people and places are most vulnerable, and how spatial evidence can support better decisions.
 
 ## Geospatial case studies
 
@@ -44,7 +44,7 @@ I start with the planning question, then choose the data and method around it. I
 
 ## Planning & research experience
 
-My practical experience includes land-use analysis, environmental assessment, neighbourhood planning and GIS-supported site studies. I have also trained university IT students in practical GIS applications and participated in community sensitisation around a proposed transport project.
+My practical experience includes land-use change, flood and coastal risk, transport and healthcare accessibility, drought and vegetation stress, land suitability, displacement and urban green infrastructure. Across these areas, my goal is consistent which is to turn geospatial data into clear evidence that can support more sustainable, resilient and equitable planning.
 
 ## Current focus
 
