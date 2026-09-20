@@ -21,7 +21,7 @@ I am an Urban and Regional Planner developing a research and professional focus 
 
 | Case study | Planning question | Key evidence / approach |
 |---|---|---|
-| **[Ibadan — Land-use change & urban expansion](https://github.com/Abdullahabdazeez/ibadan-lulc-change)** | How has Ibadan changed between 2013 and 2023? | Built-up land increased from **99.866 km² to 330.177 km²**; final locked holdout: **14/16 correct**. |
+| **[Ibadan — Land-use change & urban expansion](https://github.com/Abdullahabdazeez/ibadan-lulc-change)** | How has Ibadan changed between 2013 and 2023? | Built-up land increased from **99.866 km² to 330.177 km²**. |
 | **[Abuja — Urban-growth scenario](https://github.com/Abdullahabdazeez/abuja-urban-growth-ca-markov)** | Where could Abuja's urban footprint expand by 2035? | Historical LULC transitions, CA–Markov modelling and urban-growth suitability were combined to develop a planning scenario. |
 | **[Lokoja — Flood hazard & risk](https://github.com/Abdullahabdazeez/lokoja-flood-risk-mcda)** | Where is flood hazard concentrated, and how robust is the result? | AHP/MCDA combined terrain, rainfall, drainage, land cover and exposure evidence with validation and sensitivity testing. |
 | **[Lagos — Public transport accessibility](https://github.com/Abdullahabdazeez/lagos-public-transport-accessibility)** | Who can reach formal transit within 30 minutes on foot? | **46.56%** of the analysed population fell outside the threshold or behind a structural network gap. |
